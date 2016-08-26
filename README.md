@@ -1,5 +1,5 @@
 x11-scripts
-=============
+===========
 
 [x11-scripts][0] is a repository containing various shell (mostly bash)
 scripts.
