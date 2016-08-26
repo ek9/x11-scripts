@@ -1,4 +1,5 @@
-#!/bin/sh
+#!/usr/bin/env bash
+## ek9/x11-scripts - https://github.com/ek9/x11-scripts
 ## pdf-repair.sh
 # Uses ghostscript to repair damaged PDF files
 # Based on: https://superuser.com/questions/278562/how-can-i-fix-repair-a-corrupted-pdf-file

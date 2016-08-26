@@ -1,4 +1,5 @@
-#!/bin/bash
+#!/usr/bin/env bash
+## ek9/x11-scripts - https://github.com/ek9/x11-scripts
 set -e
 
 command_exists() {

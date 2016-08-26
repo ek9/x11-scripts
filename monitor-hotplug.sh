@@ -1,4 +1,5 @@
-#!/bin/bash
+#!/usr/bin/env bash
+## ek9/x11-scripts - https://github.com/ek9/x11-scripts
 # Based on https://bbs.archlinux.org/viewtopic.php?pid=1047415#p1047415
 # Script for toggling different monitor setups for laptop. Supports these modes:
 # - Default mode: Laptop monitor only ($LVDS) and external monitors off

@@ -1,8 +1,9 @@
-#!/bin/bash
+#!/usr/bin/env bash
+## ek9/x11-scripts - https://github.com/ek9/x11-scripts
 set -e
 
 export DISPLAY=:1
-export DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/edv/bus
+export DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/$USER/bus
 export LID_STATUS=$(awk '{ print $2 }' /proc/acpi/button/lid/LID/state)
 export NUM_DISPLAYS=$(xrandr -q |grep -c ' connected ')
 
