@@ -1,0 +1,7 @@
+#!/bin/bash
+set -e
+
+MACHINE=$(uname -s | awk '{print tolower($0)}')
+FILENAME="image/screenshot/${MACHINE}-$(date +%Y-%m-%d-%H%M%S).png"
+scrot "$@" $FILENAME
+notify-send -u low -a screenshot "Screenshot saved in $FILENAME and added to clipboard"
