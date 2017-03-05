@@ -30,7 +30,7 @@ You will be able to execute the scripts.
 - `scot` - scrot wrapper to put screenshots in `~/images/screenshots`
 - `steamfix.sh` - steam linked library fix utility
 - `volumectl.sh` - pactl wrapper to control volume (used by i3 keybinds)
-- `xvim` - open vim+terminal via X11 Xorg (i.e. thunar)
+- `xvim` - open (neo)vim+terminal via X11 Xorg (i.e. thunar)
 
 [0]: https://github.com/ek9/x11-scripts
 [10]: https://github.com/ek9/dotfiles
